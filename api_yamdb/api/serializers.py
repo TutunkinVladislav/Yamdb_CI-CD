@@ -1,9 +1,7 @@
-from rest_framework import serializers
-from rest_framework.validators import UniqueValidator
-
 from django.core.validators import RegexValidator
 from django.db.models import Avg
-
+from rest_framework import serializers
+from rest_framework.validators import UniqueValidator
 from reviews.models import Category, Comment, Genre, Review, Title, User
 
 
