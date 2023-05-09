@@ -45,7 +45,7 @@ jobs:
             context: ./api_yamdb/
             push: true
             file: ./api_yamdb/Dockerfile
-            tags: tvladislav/api_yamdb:v1.0
+            tags: tvladislav/api_yamdb:latest
 
   deploy:
     runs-on: ubuntu-latest
