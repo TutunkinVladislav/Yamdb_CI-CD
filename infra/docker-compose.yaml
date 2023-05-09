@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: tvladislav/api_yamdb:v1.0
+    image: tvladislav/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
