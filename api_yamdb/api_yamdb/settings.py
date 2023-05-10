@@ -17,8 +17,7 @@ SECRET_KEY = get_random_secret_key()
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '51.250.106.237',
-    '*'
+    '84.201.139.210'
 ]
 
 
