@@ -17,7 +17,10 @@ SECRET_KEY = get_random_secret_key()
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '84.201.139.210'
+    'localhost',
+    '127.0.0.1',
+    '84.201.139.210',
+    '*'
 ]
 
 
