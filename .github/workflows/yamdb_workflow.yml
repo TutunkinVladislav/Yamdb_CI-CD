@@ -74,7 +74,6 @@ jobs:
           sudo docker-compose exec -T web python manage.py makemigrations reviews
           sudo docker-compose exec -T web python manage.py migrate reviews
           sudo docker-compose exec -T web python manage.py migrate
-          sudo docker-compose exec -T web python manage.py createsuperuser
           sudo docker-compose exec -T web python manage.py collectstatic --no-input
 
   send_message:
