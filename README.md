@@ -1,6 +1,6 @@
 # API YaMDb c применением CI и CD
 
-![example workflow](https://github.com/TutunkinVladislav/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+[![](https://github.com/TutunkinVladislav/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/TutunkinVladislav/yamdb_final/actions/runs/4963003220)
 
 Проект API YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории, такие как «Книги», «Фильмы», «Музыка». Для приложения настроен Continuous Integration (CI) и Continuous Deployment (CD).
 
